@@ -62,9 +62,11 @@ driver:
    1. On the "general" tab:
       * Do not provide a user name or password
       * Use Class `com.simba.athena.jdbc42.Driver`
-   1. On the "advanced" tab, you'll need the following. Note that to configure LogLevel and the S3OutputEncKMSKey, you'll need to add `<user defined>` names:
+   1. On the "advanced" tab, you'll need the following. Note that to configure LogLevel and the S3OutputEncKMSKey,
+      you'll need to add `<user defined>` names:
 
       | **Name** | **Value** |
+      |----------|-----------|
       | **AwsCredentialsProviderClass** | **com.amazonaws.auth.EnvironmentVariableCredentialsProvider** |
       | **AwsRegion** | **us-east-1** |
       | **S3OutputEncOption** | **SSE_KMS** |
