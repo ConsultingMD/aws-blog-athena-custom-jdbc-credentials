@@ -21,11 +21,22 @@ think this code will need substantial maintenance.
 
 ### Installing
 
-[This Grand Rounds Wiki Page](https://grandrounds.atlassian.net/wiki/spaces/EDS/pages/702218241/How+to+set+up+DataGrip+to+talk+to+our+analytics-production+Athena) is often more up to date than the README you're reading, and may have tricks & tips from others who've done it.
+[This Grand Rounds Wiki
+Page](https://grandrounds.atlassian.net/wiki/spaces/EDS/pages/702218241/How+to+set+up+DataGrip+to+talk+to+our+analytics-production+Athena)
+is often more up to date than the README you're reading, and may have tricks &
+tips from others who've done it.
 
-Download the `.jar` for this repo into your `.datagrip` directory (on Linux, this is `~/.datagrip`)
+Download the `.jar` for this repo into your `.datagrip` directory (on Linux,
+this is `~/.datagrip`). You find the jar by navigating to the **releases** tab
+above (in Github), finding the most recent release, clicking on **assets**, and
+then downloading from there.
 
-While you're at it, download [AthenaJDBC42-2.0.7.jar](https://s3.amazonaws.com/athena-downloads/drivers/JDBC/SimbaAthenaJDBC_2.0.7/AthenaJDBC42_2.0.7.jar) to the same directory.
+While you're at it, download
+[AthenaJDBC42-2.0.7.jar](https://s3.amazonaws.com/athena-downloads/drivers/JDBC/SimbaAthenaJDBC_2.0.7/AthenaJDBC42_2.0.7.jar)
+to the same directory.
+
+I like to move the `.jar`s from Downloads to my `.datagrip` directory so
+I don't accidently delete them on a misguided cleanup of my Downloads directory.
 
 ### Setting up your tool (in general)
 
