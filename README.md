@@ -1,6 +1,8 @@
 # Grand Rounds Fork
 
-We've forked this from the upstream `aws-samples` organization to support Athena in our organization.
+We've forked this from the upstream `aws-samples` organization to support Athena in our organization. The
+[original README content](#connecting-to-amazon-athena-with-federated-identities-using-temporary-credentials)
+follows the Grand Rounds-specific content.
 
 ### Building
 
