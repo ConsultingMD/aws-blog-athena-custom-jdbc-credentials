@@ -83,10 +83,10 @@ driver:
       | **AwsCredentialsProviderClass** | **com.amazonaws.auth.EnvironmentVariableCredentialsProvider** |
       | **AwsRegion** | **us-east-1** |
       | **S3OutputEncOption** | **SSE_KMS** |
-      | **S3OutputLocation** | **s3://aws-athena-query-results-294397492613-us-east-1** |
+      | **S3OutputLocation** | **See [Confluence](https://grandrounds.atlassian.net/wiki/spaces/EDS/pages/702218241/How+to+set+up+DataGrip+to+talk+to+our+analytics-production+Athena) Page** |
       | **UseAwsLogger** | **1** |
       | **LogLevel** | **6** |
-      | **S3OutputEncKMSKey** | **273e5666-6ab7-4229-a39c-f0e06a7a563a** |
+      | **S3OutputEncKMSKey** | **See [Confluence](https://grandrounds.atlassian.net/wiki/spaces/EDS/pages/702218241/How+to+set+up+DataGrip+to+talk+to+our+analytics-production+Athena) Page** |
 
     1. Once you've done that, go ahead back to the "General" tab and hit the "Test Connection" button; you should reach success.
 
